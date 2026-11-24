@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-24T21:55:02Z",
+  "sources": {
+    "chaoliu": {
+      "file": "sources/chaoliu.json",
+      "sha256": "94bd2ee86ccc4eef71e5df4bf74003f3512f74e69aaccbf469a03cddffdf3486",
+      "count": 120,
+      "bytes": 49587
+    },
+    "heitao-guoapp": {
+      "file": "sources/heitao-guoapp.json",
+      "sha256": "208860a6caa38bdfac5adee4b83185871611e3ddb85c30317da4512a98e019c0",
+      "count": 150,
+      "bytes": 42307
+    }
+  }
+}
