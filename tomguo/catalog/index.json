@@ -1,18 +1,48 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T21:55:02Z",
+  "generatedAt": "2026-11-24T22:42:28Z",
   "sources": {
     "chaoliu": {
       "file": "sources/chaoliu.json",
-      "sha256": "94bd2ee86ccc4eef71e5df4bf74003f3512f74e69aaccbf469a03cddffdf3486",
+      "sha256": "6278572b015ba9162c0d12543b8a2bfa011eaf26f544e4f4aec9acd4f31ab0db",
       "count": 120,
       "bytes": 49587
     },
     "heitao-guoapp": {
       "file": "sources/heitao-guoapp.json",
-      "sha256": "208860a6caa38bdfac5adee4b83185871611e3ddb85c30317da4512a98e019c0",
+      "sha256": "ada02ae9ff5fc02a97ca676311cbb12016d52445d04684dc7f0b0933d20f36b1",
       "count": 150,
       "bytes": 42307
+    },
+    "madou": {
+      "file": "sources/madou.json",
+      "sha256": "0e6c32dc79dbbf6b1dc42e77b39c9452d49154d486d66235573049b0cd81fba9",
+      "count": 100,
+      "bytes": 60694
+    },
+    "huanggua": {
+      "file": "sources/huanggua.json",
+      "sha256": "034da1ff4a48c1cf05221853bf6336835f11b53486638fcae2984fc806a35e75",
+      "count": 100,
+      "bytes": 26445
+    },
+    "hkdoll": {
+      "file": "sources/hkdoll.json",
+      "sha256": "8adcdf8120e4d58cdfe61eef236eaa01caf89482180912df6443344ba11b5f25",
+      "count": 180,
+      "bytes": 58961
+    },
+    "huangguo-official": {
+      "file": "sources/huangguo-official.json",
+      "sha256": "b9be9167d5165e47723d224fd6f9a73e020ebe5860d07e65b81a27fd87f37921",
+      "count": 100,
+      "bytes": 61680
+    },
+    "jinguoduanju": {
+      "file": "sources/jinguoduanju.json",
+      "sha256": "a3d37bf3b84affc40fb2757adcd209158263f7dd7865a88296edb4c35f0104e5",
+      "count": 120,
+      "bytes": 25586
     }
   }
 }
