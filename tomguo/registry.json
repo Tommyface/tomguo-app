@@ -1,8 +1,279 @@
 {
   "name": "影视与短剧源",
   "description": "不含成人内容，可公开发布。",
-  "api": 1,
+  "api": 2,
+  "schema": 2,
   "plugins": [
+    {
+      "id": "51duanju",
+      "name": "51短剧",
+      "version": "1.0.0",
+      "description": "51短剧：迁移自内置实现。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "www.51duanju.com"
+      ],
+      "mainSha256": "ed5a27698ee6bc7472764e19c10739e396d6085659fe3a03202b91605b7a6b1d",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/51duanju-1.0.0.zip",
+      "size": 8328,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "chengguo",
+      "name": "橙果短剧",
+      "version": "1.0.0",
+      "description": "橙果短剧：Nuxt SSR 站，目录与详情从内嵌 JSON 数据图解析，播放页含带 auth_key 的 M3U8 直链。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "chengguodj.com",
+        "api2.chengguodj.com"
+      ],
+      "mainSha256": "f973c8a7efa3288d091a91cabfb0a58581c0e746b165e6e5f13f76cc7b0df422",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/chengguo-1.0.0.zip",
+      "size": 6412,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "ezdmw",
+      "name": "E站动漫",
+      "version": "1.0.0",
+      "description": "E站动漫：首页编排最近更新+新番+排行榜，后续页走 search_some 偏移分页。播放地址藏在播放页 iframe，需再请求播放器页取 listres 直链。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "www.ezdmw.org",
+        "player.ezdmw.com"
+      ],
+      "mainSha256": "c35489f5abe0f89bdd3a048269baa9910f0f9fe4653b2cdba66c19bf442a54c2",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/ezdmw-1.0.0.zip",
+      "size": 6779,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "faguo",
+      "name": "发果",
+      "version": "1.0.0",
+      "description": "发果短剧：MacCMS 模板站源，列表/详情/播放全链路采集。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "www.xzyx168.com"
+      ],
+      "mainSha256": "607511fc4c377452dc29817e00595e62657965f2a1d75fe55ecaa4566cdb7179",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/faguo-1.0.0.zip",
+      "size": 9058,
+      "available": true,
+      "state": "retired",
+      "reason": "域名 xzyx168.com 已无 DNS 解析，站点关闭",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "guipian",
+      "name": "鬼片网",
+      "version": "1.0.0",
+      "description": "鬼片网：分类页按 id 翻页卡片采集，详情取多个播放线路，播放页内嵌 m3u8 直链。搜索走站点 RSS 最新条目匹配。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "guipianwu.com"
+      ],
+      "mainSha256": "80ebbe29162973fdd5b90e1a5a1b9162029816029846e7c25ed2c2e53278f89d",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/guipian-1.0.0.zip",
+      "size": 8027,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "hanxiaoquan",
+      "name": "韩小圈",
+      "version": "1.0.0",
+      "description": "韩小圈：迁移自内置实现。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "www.jennyhow.com"
+      ],
+      "mainSha256": "a3e558224ca0fe5bb28ecd0b3a08b27e796416b6582481d70e1765ee836c9866",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/hanxiaoquan-1.0.0.zip",
+      "size": 10824,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "hema",
+      "name": "河马剧场",
+      "version": "1.0.0",
+      "description": "河马剧场：迁移自内置实现。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "www.kuaikaw.cn"
+      ],
+      "mainSha256": "8acaac6f47f2d6382f2010f8ec52b866aa9a05957f1e5bedacbb37f7b28d7895",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/hema-1.0.0.zip",
+      "size": 7189,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "hongguo",
+      "name": "红果短剧",
+      "version": "1.0.0",
+      "description": "红果短剧：网页 _ROUTER_DATA 驱动，分类页 24 条/页、详情含 vid_list。播放地址受保护，仅前几集网页试看可用；备用 API 域名不可达时如实报错。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "hongguoduanju.com",
+        "djapi.999888456.xyz"
+      ],
+      "mainSha256": "398b455f7c236326d83749dc2f8d31e8b5cbaa84bde210268db845d75ebe2a02",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/hongguo-1.0.0.zip",
+      "size": 7388,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "huaguo",
+      "name": "花果",
+      "version": "1.0.0",
+      "description": "花果短剧：MacCMS 模板站源，列表/详情/播放全链路采集。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "www.zywest263.com"
+      ],
+      "mainSha256": "3f70e58e00d0ea83d1efc20a987fe83fe937d79a6621c104deb2db74fcb04d4c",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/huaguo-1.0.0.zip",
+      "size": 9300,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "huangdou",
+      "name": "黄豆短剧",
+      "version": "1.0.0",
+      "description": "黄豆短剧：AES-CBC + HMAC 签名的加密接口站源。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "lzlukvca.cc",
+        "momodrift.top",
+        "eyeonneb.cc",
+        "hdaisp.com"
+      ],
+      "mainSha256": "942e3fca2f6f9cbebd59f80b020c1fd52e5bdb169d6b81a7d01c1e5f29514993",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/huangdou-1.0.0.zip",
+      "size": 12420,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "huangju",
+      "name": "剧果",
+      "version": "1.0.0",
+      "description": "剧果：迁移自内置实现。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "www.huangju.net"
+      ],
+      "mainSha256": "1e38d44f0b88615b238245e4af65cf75643272fe966e91a37a1d8f2b79360ffe",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/huangju-1.0.0.zip",
+      "size": 6158,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "jcydm",
+      "name": "囧次元",
+      "version": "1.0.0",
+      "description": "囧次元动漫：标准 MacCMS v10 站点，日漫 id=21 / 国漫 id=23。列表与搜索走网页采集，播放地址取自播放页内嵌 JSON。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "www.jcydm1.com"
+      ],
+      "mainSha256": "0279f40faf1756f333aec02bca786d245352a300891bfd617b1b879b2ee7848a",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/jcydm-1.0.0.zip",
+      "size": 7488,
+      "available": true,
+      "state": "retired",
+      "reason": "域名 jcydm.com 已挂牌出售，站点关闭",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
     {
       "id": "jinpai",
       "name": "金牌影视",
@@ -18,7 +289,101 @@
       ],
       "mainSha256": "ec26590a77adfcb03e574e28ce7dc0ed9947d00b10bc50bfce34f47e00ed9c7d",
       "zip": "https://tommyfac.ccwu.cc/tomguo/jinpai-1.0.0.zip",
-      "size": 5838
+      "size": 5838,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "mxdm",
+      "name": "MX动漫",
+      "version": "1.0.0",
+      "description": "MX动漫：标准 MacCMS 站，日漫/国漫/欧美/动漫电影四分类，播放页直接内嵌 M3U8 直链。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "www.dcc3.com"
+      ],
+      "mainSha256": "0229745ec371992937694234f7a340b6d84e8c3571f9a65c3dc3a8ec0190f766",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/mxdm-1.0.0.zip",
+      "size": 5658,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "sorani",
+      "name": "青空次元",
+      "version": "1.0.0",
+      "description": "青空次元：JSON API 站源，TV番剧 / 剧场动画 / 特摄剧场三分类。播放需登录，模块如实返回登录提示。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "api.sorani.cc",
+        "www.sorani.net"
+      ],
+      "mainSha256": "232a17ef656edc63473de763146516b03a62872ecfdcb4c6ccb9ef569b311fc5",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/sorani-1.0.0.zip",
+      "size": 5495,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "wangguo",
+      "name": "网果",
+      "version": "1.0.0",
+      "description": "网果短剧：MacCMS 模板站源，列表/详情/播放全链路采集。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "www.duanju2.com"
+      ],
+      "mainSha256": "0113e2f7ee7d205c0debcdd3b8085ccd01f745d6b75539f8b95c74edb2e61db0",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/wangguo-1.0.0.zip",
+      "size": 9034,
+      "available": true,
+      "state": "retired",
+      "reason": "站点启用 Cloudflare JS 挑战，模块环境无法通过",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "wuguo",
+      "name": "伍果",
+      "version": "1.0.0",
+      "description": "伍果短剧：MacCMS 模板站源，列表/详情/播放全链路采集。",
+      "minApi": 0,
+      "adult": false,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "www.duanju55.com"
+      ],
+      "mainSha256": "a92ead5f2e0cf93cc645e90ba98f3fe45b8bfd121acb0216120b48a459b2af53",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/wuguo-1.0.0.zip",
+      "size": 9175,
+      "available": true,
+      "state": "retired",
+      "reason": "站点启用 Cloudflare JS 挑战，模块环境无法通过",
+      "minAppVersion": "",
+      "replacedBy": ""
     },
     {
       "id": "xingya",
@@ -36,9 +401,14 @@
         "app.whjzjx.cn",
         "u.shytkjgs.com"
       ],
-      "mainSha256": "492fb923b650c011949c8ab578936cc77c67f1bc8c6b3fa8b158fa0374b2ea3e",
+      "mainSha256": "e0b5aada81e59bc8d7a18b844f58809ce282f1e385d5621186e7dadee5b2d825",
       "zip": "https://tommyfac.ccwu.cc/tomguo/xingya-1.0.0.zip",
-      "size": 7026
+      "size": 7312,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
     }
   ]
 }

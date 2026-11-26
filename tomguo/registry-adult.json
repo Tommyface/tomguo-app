@@ -1,6 +1,96 @@
 {
   "name": "成人源",
   "description": "默认隐藏，需在设置中开启后再导入。",
-  "api": 1,
-  "plugins": []
+  "api": 2,
+  "schema": 2,
+  "plugins": [
+    {
+      "id": "huakui",
+      "name": "花魁短剧",
+      "version": "1.0.0",
+      "description": "花魁短剧：Next.js 站点，卡片与 RSC 数据互补取封面；详情与播放走 /drama/<slug>/<章节ID>/，媒体地址是 /h5/m3u8/ 相对路径。",
+      "minApi": 0,
+      "adult": true,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "huakui.net"
+      ],
+      "mainSha256": "fbad96b9418cb29e3efc1e73dee7b85b7123fc0fbc39bfbbba135e3597c26cdb",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/huakui-1.0.0.zip",
+      "size": 6069,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "huangguo-official",
+      "name": "黄果官网",
+      "version": "1.0.0",
+      "description": "黄果官网：本站为隐藏入口站源，模块按实测 HTML/RSC 结构解析目录、详情与播放。",
+      "minApi": 0,
+      "adult": true,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "falpius.com"
+      ],
+      "mainSha256": "4b860708e8e0bc1b74e1b2ef3cf7fe7360d57e763400c071fc8ed9ac0f8a2819",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/huangguo-official-1.0.0.zip",
+      "size": 5045,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "huangguo-selected",
+      "name": "黄果精选",
+      "version": "1.0.0",
+      "description": "黄果精选：本站为隐藏入口站源，模块按实测 HTML/RSC 结构解析目录、详情与播放。",
+      "minApi": 0,
+      "adult": true,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "d2teten6pcf3ig.cloudfront.net"
+      ],
+      "mainSha256": "f7f1dc865bb37c2b44f17850fed31a2e40cd6d7c0bacfc638c2f74fa45ff894b",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/huangguo-selected-1.0.0.zip",
+      "size": 5288,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    },
+    {
+      "id": "huangguo-welfare",
+      "name": "黄果福利",
+      "version": "1.0.0",
+      "description": "黄果福利：本站为隐藏入口站源，模块按实测 HTML/RSC 结构解析目录、详情与播放。",
+      "minApi": 0,
+      "adult": true,
+      "capabilities": [
+        "cover"
+      ],
+      "hosts": [
+        "d24dalcptr65cw.cloudfront.net"
+      ],
+      "mainSha256": "5155dcb8327f9c5645ce399692dc1ca31da0340a70ada90d72ae725d4b1da3c2",
+      "zip": "https://tommyfac.ccwu.cc/tomguo/huangguo-welfare-1.0.0.zip",
+      "size": 5087,
+      "available": true,
+      "state": "active",
+      "reason": "",
+      "minAppVersion": "",
+      "replacedBy": ""
+    }
+  ]
 }
